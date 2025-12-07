@@ -96,7 +96,7 @@ jobs:
         - name: Commit and push changes
           run: |
             git config --global user.email "templeoara@gmail.com"
-            git config --global user.name "templeincloud"
+            git config --global user.name "TempleInCloud"
             git add kubernetes/productcatalog/deploy.yaml
             git commit -m "[CI]: Update product catalog image tag"
             git push origin githubcicheck
