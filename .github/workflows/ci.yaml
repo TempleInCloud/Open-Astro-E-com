@@ -96,15 +96,11 @@ jobs:
         - name: Commit and push changes
           run: |
             git config --global user.email "templeoara@gmail.com"
-            git config --global user.name "templeinloud"
+            git config --global user.name "templeincloud"
             git add kubernetes/productcatalog/deploy.yaml
             git commit -m "[CI]: Update product catalog image tag"
             git push origin HEAD:${{ github.ref_name }}
- 
-
-
-        
-        
+      
 
         
         
